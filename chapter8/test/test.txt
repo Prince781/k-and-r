@@ -1,0 +1,10 @@
+catf: cat using stdiof.h library
+========== result =========
+	real	0m0.066s
+	user	0m0.042s
+	sys	0m0.024s
+cat_std: cat using standard stdio.h library
+========== result =========
+	real	0m0.016s
+	user	0m0.002s
+	sys	0m0.014s

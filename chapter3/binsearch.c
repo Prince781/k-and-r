@@ -25,5 +25,5 @@ int binsearch(int x, const int v[], int n) {
 			high = mid - 1;
 		else low = mid;
 	}
-	return v[low] == x ? high : (v[high] == x ? high : -1);
+	return v[low] == x ? low : (v[high] == x ? high : -1);
 }
